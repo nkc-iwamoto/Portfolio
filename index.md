@@ -16,7 +16,5 @@
 
 ## これまでに作った作品
 ### 曲げて進め！レーザーダンジョン
-#### 概要
+[![ここから動画に飛べます](/img/ham.png)](https://www.youtube.com/watch?v=vAu2sqNFRJk)  
 6人チーム（プログラマー6人）  
-
-![ごはん](/img/ham.png)
