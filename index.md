@@ -11,8 +11,7 @@ C#とUnityを中心に学んでいます。
 
 ## 学習した技術  
 
-                 授業で習った　　　　　　　何も見なくても完璧
-                     ☆　　　☆　　☆　　☆　　☆　
+授業で習った　 ☆☆☆☆☆　　自信がある  
 
 | 技術     | 理解度 | 学習歴(年) |
 |----------|--------|-----------|
@@ -24,7 +23,7 @@ C#とUnityを中心に学んでいます。
 
 ## これまでに作った作品
 ### 曲げて進め！レーザーダンジョン
-[![ここから動画に飛べます](/img/preview.png)](https://www.youtube.com/watch?v=vAu2sqNFRJk){:target="_blank"}  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### ゲーム概要
 スイッチを押してレーザーを曲げギミックを解いていくゲームです。
@@ -35,7 +34,7 @@ C#とUnityを中心に学んでいます。
 |--------------|-----------------------|
 | 人数         | 6人(プログラマー6人)   |
 | 使用ツール/言語 | UnityC#             |
-| 期間         | 2か月                  |
+| 期間         | 500時間(2か月)　　　　 |
 | 担当箇所     | レーザー周りのギミック  |
 
 
@@ -53,7 +52,7 @@ Unityの教科書で制作したClimeCloudを元に学内の3日間ゲームジ�
 |------------|-------------------------|
 | 人数         | 3人(プログラマー2人,プランナー1人) |
 | 使用ツール/言語 | Unity　C#                |
-| 期間         | 3時間 x 3               |
+| 期間         | 9時間(3日間)              |
 | 担当箇所     | お邪魔ギミック               |
 
 #### 受賞
