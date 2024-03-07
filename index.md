@@ -25,8 +25,11 @@ C#とUnityを中心に学んでいます。
 ### 曲げて進め！レーザーダンジョン
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### ゲーム概要
+### ゲーム内容
 スイッチを押してレーザーを曲げギミックを解いていくゲームです。
+
+### 背景　　
+日本ゲーム大賞2023 アマチュア部門とゲームクリエイター甲子園2023に向けて制作したゲームです。
 
 ### 制作環境
 
@@ -36,16 +39,38 @@ C#とUnityを中心に学んでいます。
 | 使用ツール/言語 | UnityC#             |
 | 期間         | 500時間(2か月)　　　　 |
 | 担当箇所     | レーザー周りのギミック  |
+|リファクタリング|不定期更新|  
 
+### こだわった所
+- レーザーを曲げる処理や分岐させる処理、レーザーを当たった時のスイッチの処理を発射元のUpdateが全て呼び出している所です。
+
+毎フレームごとにギミックが今レーザーに当たっているか調べることをしたくなかったためです。
+レーザーを当てた側はRaycastで当てた物がわかるが、当てられた側はレーザーが今当たっている/いないの判定を取ることが難しいと感じました。
+また判定を取れたとしてもUpdate内で当たっている/いない処理を行うより、当てられた/離れた処理を宣言したIHitableのようなインターフェースをギミックに継承させ、
+それをレーザー側から呼び出せば、判定を取らなくても良くなり、Updateに不必要な処理を書かなくて良くなるためです。
+
+### 苦労した所
+- レーザーを曲げるギミックを向かい合わせて使用すると、StackOverflowしてしまうことです。
+　
+RayShot→ギミック処理→RayShot→ギミック処理→...壁に当たって終了　というように再起処理を使って実装していました。
+しかし、曲げるギミックを向かい合わせて使用すると、壁に当たらず永遠と再起処理をしてしまってOverflowしてしまうことがありました。
+ギミック1つ1つに上限を設けて回避しようと思いましたが、ギミックごとにフィールド変数を書くのがめんどくさい、またフィールドに置く必要性がないと感じため不採用になりました。
+引数に上限と今まで曲げてきた数を渡してあげることによってローカル変数だけで出来るため、こちらを採用しました。
 
 #### 受賞
-2023/12　ゲームクリエイター甲子園2023　B.B.スタジオ賞
+ゲームクリエイター甲子園2023　B.B.スタジオ賞　　
+第12回全国専門学校ゲームコンペティション プレイアブル部門　ファイナリスト　　
 
 ### UniVerSus
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqtdCZ1KiGo?si=CnDBOZUkjC-QWpYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### 概要
-Unityの教科書で制作したClimeCloudを元に学内の3日間ゲームジャムで制作したゲームです。
+### ゲーム内容　　
+お邪魔アイテムを駆使して他プレイヤーより速くゴールを目指す縦スクロール対戦アクションゲームです。
+一画面を縦に分割しています。
+画面を暗くしたり、操作を左右反転、移動速度アップ、ブロックが降ってくるギミックがあります。
+
+### 背景
+「Unityの教科書」という本で制作したClimeCloudを元に学内の3日間ゲームジャムで制作したゲームです。
 
 ### 制作環境
 
