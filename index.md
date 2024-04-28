@@ -85,8 +85,8 @@ C#とUnityを中心に学んでいます。
 ドロネー三角形分割とプリム法を用いてのダンジョン生成です。  
 
 ### 参考URL
-https://postd.cc/procedural-dungeon-generation-algorithm/   
+[https://postd.cc/procedural-dungeon-generation-algorithm/]   
 
-http://www.deqnotes.net/acmicpc/prim/   
+[http://www.deqnotes.net/acmicpc/prim/]   
 
-https://hadashia.hatenablog.com/entry/2018/10/11/194602
+[https://hadashia.hatenablog.com/entry/2018/10/11/194602]
