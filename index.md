@@ -80,13 +80,22 @@ C#とUnityを中心に学んでいます。
 
 ## 手続き型のダンジョン生成アルゴリズム  
 
+<iframe width="893" height="502" src="https://www.youtube.com/embed/0XdqeDpO6Qc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 内容
 ドロネー三角形分割とプリム法を用いてのダンジョン生成です。  
+実装方法が分からないところがたくさんありました。
+
+|環境|内容|
+|---|---|
+|人数|1人|
+|仕様ツール/言語|Unity C#|
+|期間|1か月半|
+
 
 ### 参考URL
 [手続き型のダンジョン生成アルゴリズム](https://postd.cc/procedural-dungeon-generation-algorithm/)   
-
+[手続き型のダンジョン生成アルゴリズムの説明](https://www.reddit.com/r/gamedev/comments/1dlwc4/procedural_dungeon_generation_algorithm_explained/)  
 [プリム法](http://www.deqnotes.net/acmicpc/prim/)   
-
-[ドロネー三角形分割](https://hadashia.hatenablog.com/entry/2018/10/11/194602)
+[ドロネー三角形分割](https://hadashia.hatenablog.com/entry/2018/10/11/194602)  
+[ドロネー三角形分割実装Qiita](https://qiita.com/edo_m18/items/7b3c70ed97bac52b2203)
