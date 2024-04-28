@@ -22,7 +22,7 @@ C#とUnityを中心に学んでいます。
 
 
 ## これまでに作った作品
-### 曲げて進め！レーザーダンジョン
+## 曲げて進め！レーザーダンジョン
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### ゲーム内容
@@ -49,19 +49,12 @@ C#とUnityを中心に学んでいます。
 また判定を取れたとしてもUpdate内で当たっている/いない処理を行うより、当てられた/離れた処理を宣言したIHitableのようなインターフェースをギミックに継承させ,   
 それをレーザー側から呼び出せば、判定を取らなくても良くなり、Updateに不必要な処理を書かなくて良くなるためです。  
 
-### 苦労した所
-- レーザーを曲げるギミックを向かい合わせて使用すると、StackOverflowしてしまうこと
-
-RayShot→ギミック処理→RayShot→ギミック処理→...壁に当たって終了　というように再起処理を使って実装していました。  　
-しかし、曲げるギミックを向かい合わせて使用すると、壁に当たらず永遠と再起処理をしてしまってOverflowしてしまうことがありました。  
-ギミック1つ1つに上限を設けて回避しようと思いましたが、ギミックごとにフィールド変数を書くのがめんどくさい、またフィールドに置く必要性がないと感じため不採用になりました。  
-引数に上限と今まで曲げてきた数を渡してあげることによってローカル変数だけで出来るため、こちらを採用しました。  
 
 #### 受賞
 ゲームクリエイター甲子園2023　B.B.スタジオ賞　　
 第12回全国専門学校ゲームコンペティション プレイアブル部門　ファイナリスト　　
 
-### UniVerSus
+## UniVerSus
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqtdCZ1KiGo?si=CnDBOZUkjC-QWpYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### ゲーム内容　　
@@ -81,10 +74,19 @@ RayShot→ギミック処理→RayShot→ギミック処理→...壁に当たっ
 | 期間         | 12時間(3日間)              |
 | 担当箇所     | お邪魔ギミック               |
 
-### こだわった所
-
 
 #### 受賞
 学内ゲームジャムで優勝
 
-### 
+## 手続き型のダンジョン生成アルゴリズム  
+
+
+### 内容
+ドロネー三角形分割とプリム法を用いてのダンジョン生成です。  
+
+### 参考URL
+https://postd.cc/procedural-dungeon-generation-algorithm/   
+
+http://www.deqnotes.net/acmicpc/prim/   
+
+https://hadashia.hatenablog.com/entry/2018/10/11/194602
