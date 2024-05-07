@@ -9,6 +9,7 @@
 C#とUnityを中心に学んでいます。  
 ギミック制作が好きです。
 
+
 ## 学習した技術  
 
 授業で習った　 ☆☆☆☆☆　　自信がある  
@@ -23,6 +24,7 @@ C#とUnityを中心に学んでいます。
 
 ## これまでに作った作品
 ## 曲げて進め！レーザーダンジョン
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### ゲーム内容
@@ -30,6 +32,8 @@ C#とUnityを中心に学んでいます。
 
 ### 背景　　
 日本ゲーム大賞2023 アマチュア部門とゲームクリエイター甲子園2023に向けて制作したゲームです。
+
+[詳細](index/LaserDungeon.md)
 
 ### 制作環境
 
